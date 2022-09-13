@@ -1,0 +1,22 @@
+CRITICAL - 2022-06-01 10:52:25 --> Undefined variable $mydata
+#0 C:\xampp\htdocs\co\app\Views\admin\add_product.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(48): view('admin/add_produ...')
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->pr()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 10:52:34 --> Undefined variable $mydata
+#0 C:\xampp\htdocs\co\app\Views\admin\admin_user.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/admin_use...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(94): view('admin/admin_use...')
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadmin_user()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

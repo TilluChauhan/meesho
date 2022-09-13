@@ -1,0 +1,124 @@
+CRITICAL - 2022-05-18 08:05:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getdata()
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshof()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-18 08:07:33 --> syntax error, unexpected '}', expecting ')'
+#0 C:\xampp\htdocs\co\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\co\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-18 10:03:45 --> Call to a member function getResultfetchArray() on array
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-18 10:04:02 --> Call to a member function getResultmysqli_fetchArray() on array
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-18 10:05:02 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-18 10:08:48 --> Function name must be a string
+#0 C:\xampp\htdocs\co\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#3 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): view('admin/add_produ...', Array)
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-18 10:09:13 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#2 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): view('admin/add_produ...', Array)
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-18 10:09:25 --> syntax error, unexpected '<', expecting end of file
+#0 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#2 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): view('admin/add_produ...', Array)
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-18 10:10:55 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\co\app\Views\admin\add_product.php(44): mysqli_fetch_array(Array)
+#2 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#5 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): view('admin/add_produ...', Array)
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#8 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-18 10:11:27 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\co\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\co\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-18 10:11:40 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): mysqli_fetch_array(NULL)
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:11:50 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): mysqli_fetch_array(Array)
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:11:51 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): mysqli_fetch_array(Array)
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:11:51 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): mysqli_fetch_array(Array)
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:11:51 --> mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ar...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(45): mysqli_fetch_array(Array)
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

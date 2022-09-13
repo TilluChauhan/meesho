@@ -1,0 +1,118 @@
+CRITICAL - 2022-05-21 15:33:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\co\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\co\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-21 17:17:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\co\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\co\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-21 17:17:51 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\co\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\co\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-21 17:23:21 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\co\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\co\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-21 17:23:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\co\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\co\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-21 10:38:56 --> Undefined array key "delete"
+#0 C:\xampp\htdocs\co\app\Views\admin\product_list.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/product_l...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(48): view('admin/product_l...', Array)
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->product_list()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 10:39:23 --> Undefined array key "delete"
+#0 C:\xampp\htdocs\co\app\Views\admin\product_list.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/product_l...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(48): view('admin/product_l...', Array)
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->product_list()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 10:46:22 --> Undefined variable $del
+#0 C:\xampp\htdocs\co\app\Views\admin\product_list.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/product_l...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(48): view('admin/product_l...', Array)
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->product_list()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 10:46:38 --> Undefined variable $mydata
+#0 C:\xampp\htdocs\co\app\Views\admin\add_product.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(38): view('admin/add_produ...')
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 10:49:53 --> Undefined array key "delete"
+#0 C:\xampp\htdocs\co\app\Views\admin\product_list.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/product_l...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(48): view('admin/product_l...', Array)
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->product_list()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 10:54:53 --> Undefined variable $up
+#0 C:\xampp\htdocs\co\app\Views\admin\add_product.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(38): view('admin/add_produ...')
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 10:55:43 --> Undefined variable $mydata
+#0 C:\xampp\htdocs\co\app\Views\admin\add_product.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(38): view('admin/add_produ...')
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 11:01:06 --> Undefined variable $up
+#0 C:\xampp\htdocs\co\app\Views\admin\add_product.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/add_produ...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(38): view('admin/add_produ...')
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

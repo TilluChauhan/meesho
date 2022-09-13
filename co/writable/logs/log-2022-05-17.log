@@ -1,0 +1,60 @@
+CRITICAL - 2022-05-17 01:52:08 --> Call to a member function getResultArray() on null
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 01:52:25 --> Call to a member function getResultArray() on null
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 01:52:37 --> Call to a member function getResultArray() on null
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 01:53:28 --> Call to a member function getResultArray() on null
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 01:53:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshoadd_product()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 10:31:21 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshof()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 10:31:29 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshof()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 10:31:45 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshof()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 10:32:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshof()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-17 10:34:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getselect()
+#0 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->meeshof()
+#1 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#2 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

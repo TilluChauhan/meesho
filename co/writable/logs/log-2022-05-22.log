@@ -1,0 +1,38 @@
+CRITICAL - 2022-05-22 07:14:11 --> Invalid file: admin/caetgory_list.php
+#0 C:\xampp\htdocs\co\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/caetgory_...')
+#1 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/caetgory_...', Array, true)
+#2 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(62): view('admin/caetgory_...', Array)
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->category_list()
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 07:14:37 --> Invalid file: admin/caetgory_list.php
+#0 C:\xampp\htdocs\co\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/caetgory_...')
+#1 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/caetgory_...', Array, true)
+#2 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(62): view('admin/caetgory_...', Array)
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->category_list()
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 07:15:15 --> Invalid file: admin/caetgory_list.php
+#0 C:\xampp\htdocs\co\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/caetgory_...')
+#1 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/caetgory_...', Array, true)
+#2 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(56): view('admin/caetgory_...')
+#3 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->category_list()
+#4 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-22 07:15:52 --> Undefined array key "Id"
+#0 C:\xampp\htdocs\co\app\Views\admin\category_list.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\co\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\co\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\co\system\Common.php(1089): CodeIgniter\View\View->render('admin/category_...', Array, true)
+#4 C:\xampp\htdocs\co\app\Controllers\meeshoController.php(62): view('admin/category_...', Array)
+#5 C:\xampp\htdocs\co\system\CodeIgniter.php(832): App\Controllers\MeeshoController->category_list()
+#6 C:\xampp\htdocs\co\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MeeshoController))
+#7 C:\xampp\htdocs\co\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\co\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
